@@ -33,6 +33,11 @@ services:
         MONGO_BIND_ADDRESS: ${MONGO_BIND_ADDRESS}
     ports:
       - "${MONGO_SERVER_MAPPED_HOST}:${MONGO_PORT_MAPPED_HOST}:27017"
+      - MYSQL_ROOT_PASSWORD=${MYSQL_PASS}
+    command: [
+      '--wait_timeout=10',
+      '--interactive_timeout=10'
+    ]
   web:
     image: ${IMAGE_TOMCAT}
     container_name: ${CONTAINER_TOMCAT}

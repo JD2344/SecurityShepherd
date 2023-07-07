@@ -1,11 +1,12 @@
 package uk.ac.leedsBeckett;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
 public class Module {
-    private static org.apache.log4j.Logger log = Logger.getLogger(Module.class);
+    private static Logger log = LogManager.getLogger(Module.class);
     private String id;
     private String name;
     private boolean isOpen;

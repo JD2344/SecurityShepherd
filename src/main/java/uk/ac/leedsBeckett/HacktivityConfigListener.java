@@ -2,7 +2,8 @@ package uk.ac.leedsBeckett;
 
 import dbProcs.Getter;
 import dbProcs.Setter;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import utils.ModulePlan;
 import utils.ScoreboardStatus;
 
@@ -26,7 +27,7 @@ import java.util.stream.Stream;
 
 public class HacktivityConfigListener implements ServletContextListener, HttpSessionListener, HttpSessionAttributeListener {
 
-    private static final org.apache.log4j.Logger log = Logger.getLogger(HacktivityConfigListener.class);
+    private static final Logger log = LogManager.getLogger(HacktivityConfigListener.class);
 
     public static final String MODULES_CONFIG_PATH = "/WEB-INF/classes/active-modules";
     public static final String FLAGS_CONFIG_PATH = "/WEB-INF/classes/flags";

@@ -49,7 +49,7 @@ catch (Exception e)
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Security Shepherd - <%= i18nLevelName %></title>
+<title>Security Web - <%= i18nLevelName %></title>
 <link href="../css/lessonCss/theCss.css" rel="stylesheet"
 	type="text/css" media="screen" />
 

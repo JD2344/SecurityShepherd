@@ -91,7 +91,7 @@ if(ses.getAttribute("errorMessage") != null)
 		<jsp:include page="translation-select.jsp" />
 		<!-- start header -->
 		<div id="header">
-			<h1>Security Shepherd</h1>
+			<h1>Security Web</h1>
 		</div>
 		<!-- end header -->
 		<!-- start page -->
@@ -163,14 +163,14 @@ if(ses.getAttribute("errorMessage") != null)
 								style="width: 400px; border-color: #A878EF; border-style: dashed; background-color: #D4D4D4; padding-top: 5px; padding-bottom: 5px; padding-right: 5px; padding-left: 5px;"
 								align="justify">
 								<center>
-									<big style="color: #A878EF;">SHEPHERD DISCLAIMER</big>
+									<big style="color: #A878EF;">DISCLAIMER</big>
 								</center>
-								<br /> <br /> The Security Shepherd project is for educational
+								<br /> <br /> The Security Web project is for educational
 								purposes only. Do not attempt to use these techniques without
 								authorization. If you are caught engaging in unauthorized
 								hacking, most companies will take legal action. Claiming that
 								you were doing security research will not protect you. <br />
-								<br /> Security Shepherd is a safe playground for you to improve
+								<br /> Security Web is a safe playground for you to improve
 								your web application security skills and only encourages white
 								hat or ethical hacking behaviour. <br />
 							</div>
@@ -187,7 +187,7 @@ if(ses.getAttribute("errorMessage") != null)
 				<div id="loadingSign" style="display: none">
 					<p>
 					<h2 class="title">Enrolling Now</h2>
-					<p>Please wait as you are enrolled for your Security Shepherd
+					<p>Please wait as you are enrolled for your Security Web
 						account.</p>
 					</p>
 				</div>

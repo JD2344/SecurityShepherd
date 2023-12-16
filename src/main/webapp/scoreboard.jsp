@@ -74,7 +74,7 @@
 %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>OWASP Security Shepherd - Scoreboard</title>
+<title>Security Web - Scoreboard</title>
 
 <link href="css/theCss.css" rel="stylesheet" type="text/css"
 	media="screen" />
@@ -88,7 +88,7 @@
 		<!-- start header -->
 		<div id="header">
 			<h1>Scoreboard</h1>
-			<p>The OWASP Security Shepherd Project</p>
+			<p>The Security Web Project</p>
 		</div>
 		<!-- end header -->
 		<!-- start page -->
